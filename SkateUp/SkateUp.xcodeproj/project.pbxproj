@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CB8FA51EAEF0EA005F6E1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CB8FA41EAEF0EA005F6E1A /* main.m */; };
+		04CB8FA81EAEF0EA005F6E1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CB8FA71EAEF0EA005F6E1A /* AppDelegate.m */; };
+		04CB8FAB1EAEF0EA005F6E1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CB8FAA1EAEF0EA005F6E1A /* ViewController.m */; };
+		04CB8FAE1EAEF0EA005F6E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CB8FAC1EAEF0EA005F6E1A /* Main.storyboard */; };
+		04CB8FB01EAEF0EA005F6E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CB8FAF1EAEF0EA005F6E1A /* Assets.xcassets */; };
+		04CB8FB31EAEF0EA005F6E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CB8FB11EAEF0EA005F6E1A /* LaunchScreen.storyboard */; };
+		04CB8FBE1EAEF0EB005F6E1A /* SkateUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CB8FBD1EAEF0EB005F6E1A /* SkateUpTests.m */; };
+		04CB8FC91EAEF0EB005F6E1A /* SkateUpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CB8FC81EAEF0EB005F6E1A /* SkateUpUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CB8FBA1EAEF0EB005F6E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CB8F981EAEF0EA005F6E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CB8F9F1EAEF0EA005F6E1A;
+			remoteInfo = SkateUp;
+		};
+		04CB8FC51EAEF0EB005F6E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CB8F981EAEF0EA005F6E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CB8F9F1EAEF0EA005F6E1A;
+			remoteInfo = SkateUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CB8FA01EAEF0EA005F6E1A /* SkateUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkateUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CB8FA41EAEF0EA005F6E1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04CB8FA61EAEF0EA005F6E1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04CB8FA71EAEF0EA005F6E1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04CB8FA91EAEF0EA005F6E1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04CB8FAA1EAEF0EA005F6E1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04CB8FAD1EAEF0EA005F6E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CB8FAF1EAEF0EA005F6E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CB8FB21EAEF0EA005F6E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CB8FB41EAEF0EA005F6E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CB8FB91EAEF0EB005F6E1A /* SkateUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkateUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CB8FBD1EAEF0EB005F6E1A /* SkateUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkateUpTests.m; sourceTree = "<group>"; };
+		04CB8FBF1EAEF0EB005F6E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CB8FC41EAEF0EB005F6E1A /* SkateUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkateUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CB8FC81EAEF0EB005F6E1A /* SkateUpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkateUpUITests.m; sourceTree = "<group>"; };
+		04CB8FCA1EAEF0EB005F6E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CB8F9D1EAEF0EA005F6E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CB8FB61EAEF0EB005F6E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CB8FC11EAEF0EB005F6E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CB8F971EAEF0EA005F6E1A = {
+			isa = PBXGroup;
+			children = (
+				04CB8FA21EAEF0EA005F6E1A /* SkateUp */,
+				04CB8FBC1EAEF0EB005F6E1A /* SkateUpTests */,
+				04CB8FC71EAEF0EB005F6E1A /* SkateUpUITests */,
+				04CB8FA11EAEF0EA005F6E1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04CB8FA11EAEF0EA005F6E1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CB8FA01EAEF0EA005F6E1A /* SkateUp.app */,
+				04CB8FB91EAEF0EB005F6E1A /* SkateUpTests.xctest */,
+				04CB8FC41EAEF0EB005F6E1A /* SkateUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CB8FA21EAEF0EA005F6E1A /* SkateUp */ = {
+			isa = PBXGroup;
+			children = (
+				04CB8FA61EAEF0EA005F6E1A /* AppDelegate.h */,
+				04CB8FA71EAEF0EA005F6E1A /* AppDelegate.m */,
+				04CB8FA91EAEF0EA005F6E1A /* ViewController.h */,
+				04CB8FAA1EAEF0EA005F6E1A /* ViewController.m */,
+				04CB8FAC1EAEF0EA005F6E1A /* Main.storyboard */,
+				04CB8FAF1EAEF0EA005F6E1A /* Assets.xcassets */,
+				04CB8FB11EAEF0EA005F6E1A /* LaunchScreen.storyboard */,
+				04CB8FB41EAEF0EA005F6E1A /* Info.plist */,
+				04CB8FA31EAEF0EA005F6E1A /* Supporting Files */,
+			);
+			path = SkateUp;
+			sourceTree = "<group>";
+		};
+		04CB8FA31EAEF0EA005F6E1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04CB8FA41EAEF0EA005F6E1A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04CB8FBC1EAEF0EB005F6E1A /* SkateUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				04CB8FBD1EAEF0EB005F6E1A /* SkateUpTests.m */,
+				04CB8FBF1EAEF0EB005F6E1A /* Info.plist */,
+			);
+			path = SkateUpTests;
+			sourceTree = "<group>";
+		};
+		04CB8FC71EAEF0EB005F6E1A /* SkateUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04CB8FC81EAEF0EB005F6E1A /* SkateUpUITests.m */,
+				04CB8FCA1EAEF0EB005F6E1A /* Info.plist */,
+			);
+			path = SkateUpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CB8F9F1EAEF0EA005F6E1A /* SkateUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CB8FCD1EAEF0EB005F6E1A /* Build configuration list for PBXNativeTarget "SkateUp" */;
+			buildPhases = (
+				04CB8F9C1EAEF0EA005F6E1A /* Sources */,
+				04CB8F9D1EAEF0EA005F6E1A /* Frameworks */,
+				04CB8F9E1EAEF0EA005F6E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkateUp;
+			productName = SkateUp;
+			productReference = 04CB8FA01EAEF0EA005F6E1A /* SkateUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CB8FB81EAEF0EB005F6E1A /* SkateUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CB8FD01EAEF0EB005F6E1A /* Build configuration list for PBXNativeTarget "SkateUpTests" */;
+			buildPhases = (
+				04CB8FB51EAEF0EB005F6E1A /* Sources */,
+				04CB8FB61EAEF0EB005F6E1A /* Frameworks */,
+				04CB8FB71EAEF0EB005F6E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CB8FBB1EAEF0EB005F6E1A /* PBXTargetDependency */,
+			);
+			name = SkateUpTests;
+			productName = SkateUpTests;
+			productReference = 04CB8FB91EAEF0EB005F6E1A /* SkateUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04CB8FC31EAEF0EB005F6E1A /* SkateUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CB8FD31EAEF0EB005F6E1A /* Build configuration list for PBXNativeTarget "SkateUpUITests" */;
+			buildPhases = (
+				04CB8FC01EAEF0EB005F6E1A /* Sources */,
+				04CB8FC11EAEF0EB005F6E1A /* Frameworks */,
+				04CB8FC21EAEF0EB005F6E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CB8FC61EAEF0EB005F6E1A /* PBXTargetDependency */,
+			);
+			name = SkateUpUITests;
+			productName = SkateUpUITests;
+			productReference = 04CB8FC41EAEF0EB005F6E1A /* SkateUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CB8F981EAEF0EA005F6E1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Jack;
+				TargetAttributes = {
+					04CB8F9F1EAEF0EA005F6E1A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					04CB8FB81EAEF0EB005F6E1A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04CB8F9F1EAEF0EA005F6E1A;
+					};
+					04CB8FC31EAEF0EB005F6E1A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04CB8F9F1EAEF0EA005F6E1A;
+					};
+				};
+			};
+			buildConfigurationList = 04CB8F9B1EAEF0EA005F6E1A /* Build configuration list for PBXProject "SkateUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CB8F971EAEF0EA005F6E1A;
+			productRefGroup = 04CB8FA11EAEF0EA005F6E1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CB8F9F1EAEF0EA005F6E1A /* SkateUp */,
+				04CB8FB81EAEF0EB005F6E1A /* SkateUpTests */,
+				04CB8FC31EAEF0EB005F6E1A /* SkateUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CB8F9E1EAEF0EA005F6E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CB8FB31EAEF0EA005F6E1A /* LaunchScreen.storyboard in Resources */,
+				04CB8FB01EAEF0EA005F6E1A /* Assets.xcassets in Resources */,
+				04CB8FAE1EAEF0EA005F6E1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CB8FB71EAEF0EB005F6E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CB8FC21EAEF0EB005F6E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CB8F9C1EAEF0EA005F6E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CB8FAB1EAEF0EA005F6E1A /* ViewController.m in Sources */,
+				04CB8FA81EAEF0EA005F6E1A /* AppDelegate.m in Sources */,
+				04CB8FA51EAEF0EA005F6E1A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CB8FB51EAEF0EB005F6E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CB8FBE1EAEF0EB005F6E1A /* SkateUpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CB8FC01EAEF0EB005F6E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CB8FC91EAEF0EB005F6E1A /* SkateUpUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CB8FBB1EAEF0EB005F6E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CB8F9F1EAEF0EA005F6E1A /* SkateUp */;
+			targetProxy = 04CB8FBA1EAEF0EB005F6E1A /* PBXContainerItemProxy */;
+		};
+		04CB8FC61EAEF0EB005F6E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CB8F9F1EAEF0EA005F6E1A /* SkateUp */;
+			targetProxy = 04CB8FC51EAEF0EB005F6E1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04CB8FAC1EAEF0EA005F6E1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CB8FAD1EAEF0EA005F6E1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CB8FB11EAEF0EA005F6E1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CB8FB21EAEF0EA005F6E1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CB8FCB1EAEF0EB005F6E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04CB8FCC1EAEF0EB005F6E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CB8FCE1EAEF0EB005F6E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkateUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lijie.SkateUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04CB8FCF1EAEF0EB005F6E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkateUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lijie.SkateUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04CB8FD11EAEF0EB005F6E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkateUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lijie.SkateUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkateUp.app/SkateUp";
+			};
+			name = Debug;
+		};
+		04CB8FD21EAEF0EB005F6E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkateUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lijie.SkateUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkateUp.app/SkateUp";
+			};
+			name = Release;
+		};
+		04CB8FD41EAEF0EB005F6E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkateUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lijie.SkateUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkateUp;
+			};
+			name = Debug;
+		};
+		04CB8FD51EAEF0EB005F6E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkateUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lijie.SkateUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkateUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CB8F9B1EAEF0EA005F6E1A /* Build configuration list for PBXProject "SkateUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CB8FCB1EAEF0EB005F6E1A /* Debug */,
+				04CB8FCC1EAEF0EB005F6E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CB8FCD1EAEF0EB005F6E1A /* Build configuration list for PBXNativeTarget "SkateUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CB8FCE1EAEF0EB005F6E1A /* Debug */,
+				04CB8FCF1EAEF0EB005F6E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04CB8FD01EAEF0EB005F6E1A /* Build configuration list for PBXNativeTarget "SkateUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CB8FD11EAEF0EB005F6E1A /* Debug */,
+				04CB8FD21EAEF0EB005F6E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04CB8FD31EAEF0EB005F6E1A /* Build configuration list for PBXNativeTarget "SkateUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CB8FD41EAEF0EB005F6E1A /* Debug */,
+				04CB8FD51EAEF0EB005F6E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CB8F981EAEF0EA005F6E1A /* Project object */;
+}
